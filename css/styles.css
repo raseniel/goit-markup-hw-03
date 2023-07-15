@@ -98,7 +98,9 @@ a {
   line-height: 21px;
   font-size: 18px;
   font-weight: 800;
-  letter-spacing: 0.54px;
+
+  display: inline-flex;
+  letter-spacing: 0.03px;
   display: inline-flex;
 }
 
@@ -176,6 +178,9 @@ a {
   font-size: 16px;
   display: block;
   padding: 24px 0;
+}
+.contact-linklist-item:not(:first-child) {
+  margin-left: 40px;
 }
 
 .contact-info {
@@ -332,13 +337,33 @@ a {
 
 .footerbg {
   background-color: var(--navyblue);
+  padding: 100px 0;
 }
 
 .lastword {
   color: var(--cloud);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin: 17.5px 0 0 0;
 }
 
 /* Portfolio Page Styling */
+
+.navbar-section {
+  padding-top: 96px;
+}
+
+.btn {
+  font-weight: 500;
+  text-align: center;
+  border-radius: 4px;
+  border: 1px solid var(--cornflower-color);
+  padding: 12px 24px;
+  font-family: var(--font-family-roboto);
+  font-size: var(--paragraph-text-size);
+  line-height: 1.5;
+}
 
 .hero-button {
   text-decoration: none;
@@ -367,6 +392,42 @@ a {
   border: 1px solid var(--cornflower, #e7e9fc);
 }
 
+.navbar-hero {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 72px;
+}
+
+.btn-option:not(:last-child) {
+  margin-right: 24px;
+}
+
+.pictures-image {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: -48px;
+  margin-left: -24px;
+}
+
+.img-pictures {
+  margin-top: 48px;
+  margin-left: 24px;
+}
+.images-option {
+  border: 1px solid var(--cornflower-color);
+  border-top: none;
+  padding: 32px 16px;
+}
+
+.pics-img-name {
+  color: var(--navy-blue-color);
+  font-size: var(--heading-three);
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.4px;
+  margin: 0 0 8px 0;
+}
 .pics-img-name {
   color: var(--navyblue);
   font-family: "roboto";
@@ -378,4 +439,9 @@ a {
 
 .pics-dept-text {
   color: var(--slatecolor);
+  font-size: var(--paragraph-text-size);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.32px;
+  margin: 0;
 }

@@ -71,15 +71,19 @@ a {
 .container {
   width: 1158px;
   margin: 0 auto;
+  padding: 0 15px;
 }
 
+.section-grey {
+  background-color: #f4f4fd;
+}
 .section {
   padding: 120px 0;
 }
 
 /* Heading CSS */
 .header {
-  border-bottom: 1px solid var(--cornflower-color);
+  border-bottom: 1px solid var(--cornflower);
 }
 
 .link-webstudio-logo {
@@ -149,6 +153,14 @@ a {
 
 .lists {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-lists {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
 
 .navbar {
@@ -189,7 +201,7 @@ a {
 }
 
 /* Studio Hero Section Styling */
-.bg-section1 {
+.hero {
   background-color: var(--navyblue);
   padding-top: 188px;
   padding-bottom: 188px;
@@ -242,12 +254,12 @@ a {
   flex-direction: row;
   justify-content: space-around;
   margin-top: -24px;
-  margin-left: -24px;
+  margin-left: -16px;
 }
 
 .benefits-criteria {
   margin-top: 24px;
-  margin-left: 24px;
+  margin-left: 16px;
 }
 
 .titlelist {
@@ -303,7 +315,7 @@ a {
 
 .team-count {
   flex-direction: column;
-  background-color: var(--white-color);
+  background-color: #ffffff;
   padding-bottom: 32px;
   margin-top: 20px;
   margin-left: 20px;
